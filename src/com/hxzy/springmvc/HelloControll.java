@@ -11,6 +11,7 @@ public class HelloControll {
 	public ModelAndView hello() {
 		ModelAndView mv=new ModelAndView();
 		System.out.println("hello");
+		System.out.println("mike");
 		//设置模型数据
 		mv.addObject("msg","hello springmvc");
 		//设置视图
