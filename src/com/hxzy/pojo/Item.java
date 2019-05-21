@@ -9,6 +9,7 @@ public class Item implements Serializable{
 	private double price;
 	private Date createtime;
 	private String detail;
+	private String name5;
 	public int getId() {
 		return id;
 	}
