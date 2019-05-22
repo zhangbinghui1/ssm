@@ -16,6 +16,7 @@ public class HelloControll {
 		//设置视图
 		mv.setViewName("hello");
 		System.out.println("hellp");
+		System.out.println("lll");
 		return mv;
 	}
 
