@@ -15,6 +15,7 @@ public class HelloControll {
 		mv.addObject("msg","hello springmvc");
 		//设置视图
 		mv.setViewName("hello");
+		System.out.println("hellp");
 		return mv;
 	}
 
